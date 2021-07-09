@@ -1,0 +1,25 @@
+body {
+    background-color: #E5E5E5;
+    color: #254F58;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #254F58;
+}
+
+a:hover,
+a:focus {
+    color: #2196F3;
+}
+.header > .web {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+}
