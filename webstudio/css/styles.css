@@ -1,25 +1,38 @@
+:root {
+    --brand-color: #2196F3;
+    --background-color: #E5E5E5;
+    --text-color: #254F58;
+    --font-main: 'Roboto', sans-serif;
+    --font-secondary: 'Raleway', sans-serif;
+}
+
 body {
-    background-color: #E5E5E5;
-    color: #254F58;
-    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
 }
 
 a {
     text-decoration: none;
-    color: #254F58;
+    color: var(--text-color);
 }
 
 a:hover,
 a:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
-.header > .web {
-    font-family: Raleway;
+
+.logo > span {
+    font-family: var(--font-secondary);
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: var(--brand-color);
+}
+
+address {
+color: var(--background-color);
 }
